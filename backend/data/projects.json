@@ -1,0 +1,24 @@
+[
+  {
+    "id": "proj-001",
+    "name": "University Assignments",
+    "description": "Track all bachelor program coursework and deadlines",
+    "color": "#4A90D9",
+    "createdAt": "2025-01-01T10:00:00.000Z",
+    "updatedAt": "2026-05-11T07:50:46.684Z"
+  },
+  {
+    "id": "proj-002",
+    "name": "Personal Goals",
+    "description": "Daily habits, fitness, and self-improvement tasks",
+    "color": "#27AE60",
+    "createdAt": "2025-01-01T10:00:00.000Z"
+  },
+  {
+    "id": "proj-003",
+    "name": "Freelance Work",
+    "description": "Client projects and deliverables",
+    "color": "#E67E22",
+    "createdAt": "2025-01-01T10:00:00.000Z"
+  }
+]

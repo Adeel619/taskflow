@@ -1,0 +1,46 @@
+[
+  {
+    "id": "task-001",
+    "title": "Submit Web Development Portfolio Phase 1",
+    "description": "Create conception phase presentation and upload to PebblePad",
+    "priority": "high",
+    "dueDate": "2025-02-01",
+    "projectId": "proj-001",
+    "completed": false,
+    "createdAt": "2025-01-10T09:00:00.000Z",
+    "updatedAt": "2026-05-11T07:46:08.569Z"
+  },
+  {
+    "id": "task-002",
+    "title": "Build TaskFlow React Frontend",
+    "description": "Implement all UI components with responsive design",
+    "priority": "high",
+    "dueDate": "2026-06-28",
+    "projectId": "proj-001",
+    "completed": false,
+    "createdAt": "2025-01-15T10:00:00.000Z",
+    "updatedAt": "2026-05-11T07:53:53.909Z"
+  },
+  {
+    "id": "task-003",
+    "title": "Morning workout routine",
+    "description": "30 minutes cardio + 20 minutes strength training",
+    "priority": "medium",
+    "dueDate": "2025-02-28",
+    "projectId": "proj-002",
+    "completed": false,
+    "createdAt": "2025-01-12T07:00:00.000Z",
+    "updatedAt": "2026-05-11T07:48:16.863Z"
+  },
+  {
+    "id": "task-004",
+    "title": "Design client landing page",
+    "description": "Create mockups and get client approval before coding",
+    "priority": "high",
+    "dueDate": "2025-01-25",
+    "projectId": "proj-003",
+    "completed": false,
+    "createdAt": "2025-01-10T11:00:00.000Z",
+    "updatedAt": "2026-05-11T07:48:15.855Z"
+  }
+]
