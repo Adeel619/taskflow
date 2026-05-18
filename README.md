@@ -71,7 +71,7 @@ taskflow/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/Adeel619/taskflow.git
 cd taskflow
 ```
 
@@ -119,12 +119,7 @@ Visit **http://localhost:3000**
 
 ---
 
-## Test Cases
-
-See `/test-cases.md` for the full test case documentation.
-
----
 
 ## Author
-Bachelor Student — IU International University  
+Muhammad Adeel Bachelor Student — IU International University  
 Web Development Portfolio — Phase 2
