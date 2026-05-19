@@ -1,4 +1,4 @@
-# TaskFlow — Personal Task & Productivity Manager
+# TaskFlow Personal Task & Productivity Manager
 
 A full-stack web application built with **React.js** (frontend) and **Node.js + Express** (backend).
 Allows users to manage tasks across project boards with priorities, deadlines, and a live dashboard.
@@ -7,12 +7,12 @@ Allows users to manage tasks across project boards with priorities, deadlines, a
 
 ## Features
 
-- ✅ Create, edit, delete, and complete tasks
-- 📁 Organize tasks into project boards
-- 🔴 Priority levels: High / Medium / Low
-- 📅 Due dates with overdue detection
-- 📊 Live dashboard with statistics (total, completed, pending, overdue)
-- 📱 Fully responsive (desktop, tablet, mobile)
+-  Create, edit, delete, and complete tasks
+-  Organize tasks into project boards
+-  Priority levels: High / Medium / Low
+-  Due dates with overdue detection
+-  Live dashboard with statistics (total, completed, pending, overdue)
+-  Fully responsive (desktop, tablet, mobile)
 
 ---
 
@@ -28,40 +28,6 @@ Allows users to manage tasks across project boards with priorities, deadlines, a
 
 ---
 
-## Project Structure
-
-```
-taskflow/
-├── backend/
-│   ├── server.js           # Express app entry point
-│   ├── routes/
-│   │   ├── tasks.js        # Task CRUD API endpoints
-│   │   └── projects.js     # Project CRUD API endpoints
-│   ├── utils/
-│   │   └── storage.js      # JSON read/write utility
-│   └── data/
-│       ├── tasks.json      # Task data store
-│       └── projects.json   # Project data store
-└── frontend/
-    ├── src/
-    │   ├── App.jsx             # Root component & routing
-    │   ├── index.css           # Global styles & responsive CSS
-    │   ├── services/
-    │   │   └── api.js          # Axios API service layer
-    │   ├── components/
-    │   │   ├── Sidebar.jsx     # Navigation sidebar
-    │   │   ├── TaskCard.jsx    # Individual task display
-    │   │   ├── TaskModal.jsx   # Create/edit task form
-    │   │   └── ProjectModal.jsx# Create/edit project form
-    │   └── pages/
-    │       ├── Dashboard.jsx   # Stats + recent tasks
-    │       ├── AllTasks.jsx    # All tasks with filters
-    │       ├── Projects.jsx    # Project boards overview
-    │       └── ProjectDetail.jsx # Single project tasks
-    └── vite.config.js          # Vite + API proxy config
-```
-
----
 
 ## Installation & Setup
 
@@ -100,22 +66,22 @@ Visit **http://localhost:3000**
 
 ### Tasks
 | Method | Endpoint                    | Description              |
-|--------|-----------------------------|--------------------------|
-| GET    | /api/tasks                  | Get all tasks            |
-| GET    | /api/tasks?projectId=:id    | Get tasks by project     |
-| GET    | /api/tasks/stats            | Get dashboard statistics |
-| POST   | /api/tasks                  | Create a new task        |
-| PUT    | /api/tasks/:id              | Update a task            |
-| PATCH  | /api/tasks/:id/toggle       | Toggle task completion   |
-| DELETE | /api/tasks/:id              | Delete a task            |
+------------------------------------------------------------------
+ GET         /api/tasks                      Get all tasks           
+ GET         /api/tasks?projectId=:id        Get tasks by project     
+ GET         /api/tasks/stats                Get dashboard statistics 
+ POST        /api/tasks                      Create a new task        
+ PUT         /api/tasks/:id                  Update a task            
+ PATCH       /api/tasks/:id/toggle           Toggle task completion   
+ DELETE      /api/tasks/:id                  Delete a task            
 
 ### Projects
-| Method | Endpoint                | Description                        |
-|--------|-------------------------|------------------------------------|
-| GET    | /api/projects           | Get all projects                   |
-| POST   | /api/projects           | Create a new project               |
-| PUT    | /api/projects/:id       | Update a project                   |
-| DELETE | /api/projects/:id       | Delete project + its tasks         |
+| Method | Endpoint                | Description                        
+--------------------------------------------------------------------
+ GET     /api/projects            Get all projects                   
+ POST    /api/projects            Create a new project               
+ PUT     /api/projects/:id        Update a project                   
+ DELETE  /api/projects/:id        Delete project + its tasks         
 
 ---
 
